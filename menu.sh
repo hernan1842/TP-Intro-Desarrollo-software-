@@ -37,7 +37,4 @@ case $opcion_elegiga in
         echo "Saliendo..."
         exit 0
         ;;
-    *)
-        echo "Opción inválida."
-        ;;
 esac
