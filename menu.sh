@@ -16,10 +16,10 @@ echo "Opcion 6: Salir"
 read -p "Ingrese el numero de la opcion elegida: " opcion_elegida
 
 
-case $opcion_elegiga in
+case $opcion_elegida in
     1)
         echo "Creando entorno dentro del Home"
-        mkdir -p "$HOME_DIRECTORIO"/{"$ENTRADA_DIR","$SALIDA_DIR","$PROCESADO_DIR"}
+        mkdir -p "$HOME_DIRECTORIO"/{$ENTRADA_DIR,$SALIDA_DIR,$PROCESADO_DIR}
         echo "Entorno creado";;
     2)
         echo "Opción 2 - pendiente"
